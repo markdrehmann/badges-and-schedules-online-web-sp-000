@@ -13,7 +13,7 @@ end
 def assign_rooms(array)
   counter = 0
   array.collect do |name|
-    "Hello, #{name}! You'll be assigned to room #{counter}!"
     counter += 1
+    "Hello, #{name}! You'll be assigned to room #{counter}!"
   end
 end
