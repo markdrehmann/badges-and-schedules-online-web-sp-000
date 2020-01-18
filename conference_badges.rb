@@ -26,5 +26,3 @@ def printer(array)
     puts rooms
   end
 end
-
-
